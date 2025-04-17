@@ -2378,7 +2378,13 @@ input[type='checkbox'] {
   display: block;
   position: relative;
   background-color: rgb(var(--color-background));
+  top: var(--brand-line-top);
+  padding-top: var(--brand-line-padding-top);
 }
+
+/* small: top =  45px  padding-top = 0px*/
+/* medium: top =  75px  padding-top = 20px*/
+/* large: top =  105px  padding-top = 40px*/
 
 .header-wrapper--border-bottom {
   border-bottom: 0.1rem solid rgba(var(--color-foreground), 0.08);

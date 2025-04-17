@@ -1,0 +1,172 @@
+<section id="custom-menu-section">
+  <nav class="site-nav">
+    <ul>
+      {% for link in section.blocks %}
+        <li>
+          {% if link.settings.logo != null %}
+            <div class="link-image-container">
+              <a href="{{link.settings.url}}" title="{{ link.settings.name }}">
+                <img
+                  src="{{ link.settings.logo |  image_url: width: 800 }}"
+                  alt="{{ link.settings.logo.alt | escape }}"
+                  width="100px"
+                  height="40px"
+                >
+              </a>
+            </div>
+
+          {% else %}
+            <div class="link-container">
+              <a href="{{link.settings.url}}" title="{{ link.settings.name }}">{{ link.settings.name }}</a>
+            </div>
+          {% endif %}
+        </li>
+      {% endfor %}
+    </ul>
+  </nav>
+</section>
+
+{% assign brand_line_height =  %}
+
+<style>
+  #custom-menu-section {
+    text-align: {{ section.settings.horizontal_align }};
+    font-weight: bold;
+    background-color: #f2f2f2; /* Adjust background color as needed */
+    /* padding: 5px 0; */
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+    height: {{ section.settings.height }};
+    display: flex;
+    justify-content: {{ section.settings.horizontal_align }};
+    align-items: {{ section.settings.vertical_align }};
+    z-index: 1000;
+  }
+  #custom-menu-section .site-nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    height: max-content;
+  }
+  #custom-menu-section .site-nav ul li {
+    display: inline-block;
+    margin: 0 5px;
+  }
+  #custom-menu-section .site-nav .link-container {
+    font-size: 2rem;
+    height: 50px;
+  }
+  #custom-menu-section .site-nav ul li img {
+    vertical-align: middle;
+  }
+  #custom-menu-section .site-nav ul li a {
+    text-decoration: none;
+    color: #333; /* Adjust link color as needed */
+  }
+</style>
+
+{% schema %}
+{
+  "name": "Brand Line Menu",
+  "enabled_on": {
+    "groups": ["header"]
+  },
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "default": "Brand Line Menu",
+      "label": "Title"
+    },
+    {
+      "type": "select",
+      "id": "height",
+      "label": "Height",
+      "default": "50px",
+      "options": [
+        {
+          "label": "Small",
+          "value": "50px"
+        },
+        {
+          "label": "Medium",
+          "value": "100px"
+        },
+        {
+          "label": "Large",
+          "value": "150px"
+        }
+      ]
+    },
+    {
+      "type": "select",
+      "id": "horizontal_align",
+      "label": "Horizontal Align",
+      "default": "center",
+      "options": [
+        {
+          "label": "Left",
+          "value": "start"
+        },
+        {
+          "label": "Center",
+          "value": "center"
+        },
+        {
+          "label": "Right",
+          "value": "end"
+        }
+      ]
+    },
+    {
+      "type": "select",
+      "id": "vertical_align",
+      "label": "Vertical Align",
+      "default": "center",
+      "options": [
+        {
+          "label": "Top",
+          "value": "start"
+        },
+        {
+          "label": "Center",
+          "value": "center"
+        },
+        {
+          "label": "Bottom",
+          "value": "end"
+        }
+      ]
+    }
+  ],
+  "blocks": [
+    {
+      "type": "link",
+      "name": "link",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "logo",
+          "label": "Logo"
+        },
+        {
+          "type": "text",
+          "id": "name",
+          "label": "Name"
+        },
+        {
+          "type": "url",
+          "id": "url",
+          "label": "URL"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Brand Line Menu"
+    }
+  ]
+}
+{% endschema %}

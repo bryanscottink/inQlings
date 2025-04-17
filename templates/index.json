@@ -1,210 +1,189 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
-    "image_banner": {
-      "type": "image-banner",
+    "otsb_promotion_banner_4_QEDLTn": {
+      "type": "otsb-promotion-banner-4",
       "blocks": {
-        "heading": {
-          "type": "heading",
+        "image_banner_tVULbi": {
+          "type": "image_banner",
           "settings": {
-            "heading": "Image banner",
-            "heading_size": "h0"
+            "heading": "Title Content Banner",
+            "heading_size": 180,
+            "heading_tag": "h2",
+            "subheading": "",
+            "text": "Give custormers details about the banner image(s) or content on the template.",
+            "text_size": 150,
+            "content_box_type": "square",
+            "add_frame": false,
+            "color_content_box_light": "rgba(0,0,0,0)",
+            "color_text": "#ffffff"
           }
         },
-        "text": {
-          "type": "text",
+        "countdown_timer_YtXwk4": {
+          "type": "countdown_timer",
           "settings": {
-            "text": "Give customers details about the banner image(s) or content on the template.",
-            "text_style": "body"
+            "timezone": "-4",
+            "end_year": 2023,
+            "end_month": "1",
+            "end_day": "1",
+            "end_hour": "0",
+            "end_minute": "0",
+            "timer_style": "square",
+            "border_style": "border",
+            "overlay_opacity": 30,
+            "edges_type": "rounded_corners",
+            "timer_color_countdown": "#000000",
+            "text_color_countdown": "#ffffff",
+            "bg_color_countdown": "#000000",
+            "spacing_col": 12,
+            "spacing_col_mobile": 8
           }
         },
-        "button": {
+        "buttons_3QTa6L": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Shop all",
-            "button_link_1": "shopify://collections/all",
-            "button_style_secondary_1": true,
+            "button_label": "Button Label",
+            "button_link": "",
+            "open_new_window_button": false,
+            "primary_button_1": true,
             "button_label_2": "",
             "button_link_2": "",
-            "button_style_secondary_2": false
+            "open_new_window_button_2": false,
+            "primary_button_2": false,
+            "button_type": "square",
+            "button_color_mobile": "color",
+            "button_animation": "fill_up",
+            "custom_icon_button": "",
+            "color_button": "#ffffff",
+            "color_button_hover": "rgba(0,0,0,0)",
+            "color_text_button": "#000000",
+            "color_text_button_hover": "rgba(0,0,0,0)",
+            "color_button_secondary": "#ffffff",
+            "secondary_button_text": "rgba(0,0,0,0)"
           }
         }
       },
       "block_order": [
-        "heading",
-        "text",
-        "button"
+        "image_banner_tVULbi",
+        "countdown_timer_YtXwk4",
+        "buttons_3QTa6L"
       ],
+      "name": "OT: Promo Banner #4",
       "settings": {
-        "image_overlay_opacity": 40,
-        "image_height": "large",
-        "desktop_content_position": "bottom-center",
-        "show_text_box": false,
-        "desktop_content_alignment": "center",
-        "color_scheme": "scheme-3",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": false,
-        "show_text_below": false
-      }
-    },
-    "rich_text": {
-      "type": "rich-text",
-      "blocks": {
-        "heading": {
-          "type": "heading",
-          "settings": {
-            "heading": "Talk about your brand",
-            "heading_size": "h1"
-          }
-        },
-        "text": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "heading",
-        "text"
-      ],
-      "settings": {
-        "color_scheme": "scheme-1",
+        "heading": "Promotion Banner",
+        "image_link": "",
+        "open_new_window": false,
+        "image_overlay_opacity": 0,
+        "image_overlay_color": "#202020",
+        "content_position": "center-left",
+        "content_horizontal": 50,
+        "content_vertical": 50,
+        "position_content_mobile": "center-left",
+        "content_alignment": "left",
+        "show_hero": false,
+        "disable_parallax_effect": false,
         "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 0
+        "padding_full_width": false,
+        "rounded_corner_image": false,
+        "desktop_height": "550px",
+        "padding_top": 0,
+        "padding_bottom": 28,
+        "full_width_mobile": true,
+        "rounded_corner_image_mobile": false,
+        "mobile_height": "400px",
+        "padding_top_mobile": 0,
+        "padding_bottom_mobile": 20
       }
     },
-    "featured_collection": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "Featured products",
-        "heading_size": "h2",
-        "collection": "all",
-        "products_to_show": 8,
-        "columns_desktop": 4,
-        "color_scheme": "scheme-1",
-        "show_view_all": false,
-        "swipe_on_mobile": false,
-        "image_ratio": "adapt",
-        "show_secondary_image": true,
-        "show_vendor": false,
-        "show_rating": false,
-        "columns_mobile": "2",
-        "padding_top": 28,
-        "padding_bottom": 36
-      }
-    },
-    "collage": {
-      "type": "collage",
+    "otsb_testimonials_3_Ftri9r": {
+      "type": "otsb-testimonials-3",
       "blocks": {
-        "collection-0": {
-          "type": "collection",
+        "testimonial_wUtgxU": {
+          "type": "testimonial",
           "settings": {
-            "collection": ""
+            "icon_star": "5_star",
+            "custom_icon": "",
+            "title": "Testimonials",
+            "text": "<p>\"Add customer reviews and testimonials to showcase your store's happy customers\"</p>",
+            "author": "Add a caption",
+            "author_note": "<p>New York City, NY</p>"
           }
         },
-        "product": {
-          "type": "product",
+        "testimonial_EXn77e": {
+          "type": "testimonial",
           "settings": {
-            "product": "",
-            "second_image": false
+            "icon_star": "5_star",
+            "custom_icon": "",
+            "title": "Testimonials",
+            "text": "<p>\"Add customer reviews and testimonials to showcase your store's happy customers\"</p>",
+            "author_image": "shopify://shop_images/BES_Shopify_Training_favicon.png",
+            "author": "Add a caption",
+            "author_note": "<p>New York City, NY</p>"
           }
         },
-        "collection-1": {
-          "type": "collection",
+        "testimonial_UkAbm3": {
+          "type": "testimonial",
           "settings": {
-            "collection": ""
+            "icon_star": "5_star",
+            "custom_icon": "",
+            "title": "Testimonials",
+            "text": "<p>\"Add customer reviews and testimonials to showcase your store's happy customers\"</p>",
+            "author": "Add a caption",
+            "author_note": "<p>New York City, NY</p>"
           }
         }
       },
       "block_order": [
-        "collection-0",
-        "product",
-        "collection-1"
+        "testimonial_wUtgxU",
+        "testimonial_EXn77e",
+        "testimonial_UkAbm3"
       ],
-      "settings": {
-        "heading": "Multimedia collage",
-        "heading_size": "h2",
-        "desktop_layout": "left",
-        "mobile_layout": "collage",
-        "color_scheme": "scheme-1",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "video": {
-      "type": "video",
+      "name": "OT: Testimonials #3",
       "settings": {
         "heading": "",
-        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-        "heading_size": "h1",
-        "description": "",
-        "full_width": false,
-        "color_scheme": "scheme-1",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "multicolumn": {
-      "type": "multicolumn",
-      "blocks": {
-        "column1": {
-          "type": "column",
-          "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column2": {
-          "type": "column",
-          "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column3": {
-          "type": "column",
-          "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "column1",
-        "column2",
-        "column3"
-      ],
-      "settings": {
-        "title": "",
-        "heading_size": "h1",
-        "image_width": "third",
-        "image_ratio": "adapt",
-        "columns_desktop": 3,
-        "column_alignment": "center",
-        "background_style": "none",
-        "button_label": "",
-        "button_link": "",
-        "swipe_on_mobile": false,
-        "color_scheme": "scheme-1",
-        "columns_mobile": "1",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "heading_size": 100,
+        "heading_tag": "h2",
+        "text_alignment": "center",
+        "columns_desktop": "3",
+        "show_arrow": false,
+        "show_pagination": true,
+        "auto_play": false,
+        "change_slides_speed": 5,
+        "show_author_image": true,
+        "author_image": "top",
+        "image_ratio": "round",
+        "is_lazyload": true,
+        "corner_image": 0,
+        "desktop_height": 300,
+        "background_color_light": "#FFFFFF",
+        "item_background_color_light": "#F2F2F2",
+        "heading_color": "#212020",
+        "heading_and_title_light": "#212020",
+        "item_text_color_light": "#444444",
+        "rating_color": "#E99D0B",
+        "border_color": "#848484",
+        "slider_button_color": "#000000",
+        "slider_button_hover_color": "#000000",
+        "slider_button_hover_text_color": "#FFFFFF",
+        "show_section_divider": false,
+        "top_padding": 28,
+        "bottom_padding": 28,
+        "show_section_divider_mobile": false,
+        "top_padding_mobile": 16,
+        "bottom_padding_mobile": 20
       }
     }
   },
   "order": [
-    "image_banner",
-    "rich_text",
-    "featured_collection",
-    "collage",
-    "video",
-    "multicolumn"
+    "otsb_promotion_banner_4_QEDLTn",
+    "otsb_testimonials_3_Ftri9r"
   ]
 }

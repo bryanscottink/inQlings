@@ -1,44 +1,70 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "name": "t:sections.header.name",
   "type": "header",
   "sections": {
-    "announcement-bar": {
-      "type": "announcement-bar",
+    "brand-line-menu": {
+      "type": "brand-line-menu",
       "blocks": {
-        "announcement-bar-0": {
-          "type": "announcement",
+        "link_4nmABU": {
+          "type": "link",
           "settings": {
-            "text": "Welcome to our store",
-            "text_alignment": "center",
-            "color_scheme": "scheme-1",
-            "link": ""
+            "logo": "shopify://shop_images/TetherPet_logo_dark_svg.svg",
+            "name": "TetherPet",
+            "url": ""
+          }
+        },
+        "link_intA8L": {
+          "type": "link",
+          "settings": {
+            "logo": "shopify://shop_images/inQlings_Logo_light_svg.svg",
+            "name": "inQlings",
+            "url": ""
           }
         }
       },
       "block_order": [
-        "announcement-bar-0"
-      ]
+        "link_4nmABU",
+        "link_intA8L"
+      ],
+      "settings": {
+        "title": "Brand Line Menu",
+        "height": "50px",
+        "horizontal_align": "center",
+        "vertical_align": "center"
+      }
     },
     "header": {
       "type": "header",
+      "custom_css": [],
       "settings": {
-        "color_scheme": "scheme-1",
-        "logo_position": "middle-left",
-        "menu": "main-menu",
-        "menu_type_desktop": "dropdown",
-        "sticky_header_type": "on-scroll-up",
-        "show_line_separator": true,
-        "enable_country_selector": true,
-        "enable_language_selector": true,
+        "logo_position": "middle-center",
         "mobile_logo_position": "center",
+        "menu": "inqlings-main",
+        "menu_type_desktop": "dropdown",
+        "sticky_header_type": "always",
+        "show_line_separator": false,
+        "color_scheme": "scheme-1",
+        "menu_color_scheme": "",
+        "enable_country_selector": false,
+        "enable_language_selector": false,
+        "enable_customer_avatar": false,
         "margin_bottom": 0,
-        "padding_top": 20,
+        "padding_top": 0,
         "padding_bottom": 20
       }
     }
   },
   "order": [
-    "announcement-bar",
+    "brand-line-menu",
     "header"
   ]
 }

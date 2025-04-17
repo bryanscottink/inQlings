@@ -214,6 +214,7 @@
   padding-right: 4.4rem;
   display: flex;
   overflow-y: auto;
+  overflow-x: hidden;
   padding: var(--modal-padding);
   height: 100%;
 }
@@ -318,13 +319,6 @@ quick-add-modal .product__column-sticky {
     padding-left: 4rem;
     max-width: 54%;
     width: calc(54% - var(--grid-desktop-horizontal-spacing) / 2);
-  }
-
-  quick-add-modal
-    .product--columns
-    .product__media-item:not(.product__media-item--single):not(:only-child) {
-    max-width: 100%;
-    width: 100%;
   }
 
   quick-add-modal
